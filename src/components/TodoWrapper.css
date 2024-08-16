@@ -1,0 +1,38 @@
+.todo-wrapper {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f9;
+  }
+  
+  .todo-wrapper h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .todo-wrapper .TodoForm,
+  .todo-wrapper .Todo,
+  .todo-wrapper .EditTodoForm {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .todo-wrapper .todo-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-wrapper .todo-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-wrapper .todo-btn:hover {
+    background-color: #0056b3;
+  }
+  
